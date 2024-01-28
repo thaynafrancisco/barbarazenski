@@ -1,0 +1,57 @@
+      <div class="container-fluid red p-5 font-light">
+      <h1 class="text-center text-white m-5">Para quem é a Análise de Perfil</h1>
+      <p class="text-center text-white"><span>— Profissionais e empreendedores que querem ser referência</span></p>
+      <p class="text-center text-white"><span>— Profissionais e empreendedores que querem ser referência</span></p>
+      <p class="text-center text-white"><span>— Profissionais e empreendedores que querem ser referência</span></p>
+      <p class="text-center text-white"><span>— Profissionais e empreendedores que querem ser referência</span></p>
+      <div class="text-center mt-5">
+        <button type="button" class="btn btn-light">Eu quero!</button>
+      </div>
+    </div>
+
+    <div class="container-fluid p-5">
+      <h1 class="m-5 text-center">Processo da Análise de Sucesso:</h1>
+      <div class="row justify-content-end p-5">
+        <div class="col-lg-2">
+          <span></span>
+        </div>
+        <div class="col-lg-10">
+          <div class="border-content mb-4">
+            <h1>CONTRATAÇÃO</h1>
+            <p>Após o pagamento lhe enviarei um formulário sobre o seu perfil e reunirei informações do motivo que te levou a contratar a análise. Com o formulário preenchido, agendaremos sua análise.</p>
+          </div>
+          <div class="border-content mb-4">
+            <h1>CONTRATAÇÃO</h1>
+            <p>Após o pagamento lhe enviarei um formulário sobre o seu perfil e reunirei informações do motivo que te levou a contratar a análise. Com o formulário preenchido, agendaremos sua análise.</p>
+          </div>
+          <div class="border-content mb-4">
+            <h1>CONTRATAÇÃO</h1>
+            <p>Após o pagamento lhe enviarei um formulário sobre o seu perfil e reunirei informações do motivo que te levou a contratar a análise. Com o formulário preenchido, agendaremos sua análise.</p>
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-danger">Eu quero!</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid red p-5">
+      <h1 class="text-center text-white m-5">
+        Você receberá:
+      </h1>
+      <div class="list p-5">
+        <p class="text-center text-white"><span>✓ 1h de consultoria comigo para analisar o seu perfil</span></p>
+        <p class="text-center text-white"><span>✓ 1h de consultoria comigo para analisar o seu perfil</span></p>
+        <p class="text-center text-white"><span>✓ 1h de consultoria comigo para analisar o seu perfil</span></p>
+        <p class="text-center text-white"><span>✓ 1h de consultoria comigo para analisar o seu perfil</span></p>
+        <p class="text-center text-white"><span>✓ 1h de consultoria comigo para analisar o seu perfil</span></p>
+      </div>
+      <div class="price p-5">
+        <p class="text-white text-center price-before"><span>De R$800,00 por apenas:</span></p>
+        <p class="text-white text-center price-after"><span>R$500,00</span></p>
+        <p class="text-white text-center installments"><span>Em até 6x de  R$93,90</span></p>
+        <div class="text-center mt-5">
+          <button type="button" class="btn btn-light">Eu quero!</button>
+        </div>
+      </div>
+    </div>
