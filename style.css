@@ -32,10 +32,8 @@ h1 {
     background-color: #721011;
 }
 
-.border-left {
-    border-left: 2px solid #fff;
-    height: 320px;
-    display: block;
+header > .container-fluid {
+    padding: 0!important;
 }
 
 .btn {
@@ -112,39 +110,6 @@ img.barbara {
     z-index: 10;
 }
 
-
-header {
-    color: #fff;
-}
-
-.header-container {
-    margin: 0 auto;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.column {
-    flex: 1;
-    text-align: center;
-}
-
-.column-left {
-    order: 1;
-}
-
-.column-right {
-    order: 2;
-}
-
-.column img {
-    width: 100%;
-    height: auto;
-}
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 767px) {
     span {
@@ -154,5 +119,4 @@ header {
     .col-lg-6 {
         width: 50%;
     }
-
 }
