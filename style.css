@@ -104,6 +104,10 @@ p {
     background-size: contain;
 }
 
+.title {
+    padding: 24px 0;
+}
+
 img.barbara {
     -webkit-box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5);
