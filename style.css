@@ -1,8 +1,11 @@
+/* @font-face {
+    font-family: 'NeueMontreal';
+    src: url('fonts/NeueMontreal/NeueMontreal-Regular.otf')
+} */
 @font-face {
     font-family: 'NeueMontreal';
-    src: url('fonts/NeueMontreal/NeueMontreal-Regular.otf');
+    src: url('fonts/NeueMontreal/NeueMontreal-Light.otf;')
 }
-
 @font-face {
     font-family: 'TheSeasons';
     src: url('fonts/TheSeasons/Fontspring-DEMO-theseasons-reg.otf')
@@ -10,25 +13,35 @@
 
 body {
     font-family: 'NeueMontreal', sans-serif;
+    font-weight: lighter;
     background-color: #E0D2C2;
+    font-size: 18px;
 }
 
 h1 {
-    font-family: 'TheSeasons', sans-serif!important;
+    font-family: 'TheSeasons', sans-serif;
     font-weight: 100;
-    font-size: 48px;
+    font-size: 3.5vw;
 }
 
-.red {
+.container, .container-fluid {
+    padding: 3.2vw;
+}
+
+.bg-colorful {
     background-color: #721011;
 }
 
+.border-left {
+    border-left: 2px solid #fff;
+    height: 320px;
+    display: block;
+}
+
 .btn {
-    font-size: 24px;
-    padding: 12px 40px;
-    border-radius: 30px;
-    text-decoration: none;
-    border: none;
+    font-size: 1.6vw;
+    padding: 0.5vw 1.6vw;
+    border-radius: 3vw;
 }
 
 .btn-danger {
@@ -53,56 +66,93 @@ h1 {
 }
 
 .border-content {
-    border: 1px solid #333;
-    padding: 4rem;
-    border-right: none;
+    border: 0.2vw solid #333;
+    padding: 2vw;
 }
-.border-left {
-    border-left: 1px solid #fff;
-}
+
 .list {
-    border: 1px solid #fff;
-    width: fit-content;
+    border: 0.2vw solid #fff;
+    width: 70%;
     margin: 0 auto;
 }
 
 .terms {
     background-color: #000;
+    padding: 1.5vw;
 }
 
 .price-after {
-    font-size: 72px;
-    font-weight: bold;
+    font-size: 7vw;
 }
 
 .price {
-    font-size: 24px;
+    font-size: 2vw;
     line-height: 1.8;
 }
 
 .installments {
-    font-size: 20px;
-}
-
-header p {
-    font-size: 36px;
-}
-
-footer p {
-    font-size: 20px;
+    font-size: 1.8vw;
 }
 
 p {
-    font-size: 24px;
+    font-size: 1.6vw;
 }
+
 .bg-brown {
     background-image: url(files/bg-brown.jpeg);
     background-size: contain;
+    background-color: #8B4513;
 }
+
 img.barbara {
-    -webkit-box-shadow: -5px 0px 5px 0px rgba(51,3,NaN,1);
-    -moz-box-shadow: -5px 0px 5px 0px rgba(51,3,NaN,1);
-    box-shadow: -5px 0px 5px 0px rgba(51,3,NaN,1);
+    -webkit-box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5); /* Corrected shadow color */
+    -moz-box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5); /* Corrected shadow color */
+    box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5); /* Corrected shadow color */
     position: relative;
     z-index: 10;
+}
+
+
+header {
+    color: #fff;
+}
+
+.header-container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+.column-left {
+    order: 1;
+}
+
+.column-right {
+    order: 2;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+}
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+    span {
+        font-size: 1.6vw;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
 }
