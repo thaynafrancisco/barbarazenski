@@ -153,6 +153,6 @@ header {
         width: 100%;
     }
     .container, .container-fluid {
-        padding: 24px;
+        padding: 8px;
     }
 }
