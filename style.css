@@ -109,13 +109,47 @@ img.barbara {
     z-index: 10;
 }
 
+/* Estilos do cabeçalho */
+header {
+    color: #fff;
+}
+
+.header-container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+.column-left {
+    order: 1;
+}
+
+.column-right {
+    order: 2;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+}
+
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 767px) {
     span {
         font-size: 1.6vw;
     }
 
-    .col-lg-6 {
+    /* .col-lg-6 {
         width: 50%;
-    }
+    } */
 }
