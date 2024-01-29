@@ -102,7 +102,6 @@ p {
 .bg-brown {
     background-image: url(files/bg-brown.jpeg);
     background-size: contain;
-    background-color: #8B4513;
 }
 
 img.barbara {
@@ -137,7 +136,6 @@ header {
 .column-left {
     order: 1;
 }
-
 .column-right {
     order: 2;
 }
@@ -153,6 +151,17 @@ header {
         width: 100%;
     }
     .container, .container-fluid {
-        padding: 8px;
+        padding: 16px;
+    }
+    /* .col-lg-6 {
+        width: 50%;
+    } */
+    .column-left {
+        order: 1;
+        text-align: left;
+        margin-left: 32px;
+    }
+    .bg-brown {
+        background-size: 100%;
     }
 }
