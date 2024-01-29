@@ -1,31 +1,31 @@
-/* @font-face {
-    font-family: 'NeueMontreal';
-    src: url('fonts/NeueMontreal/NeueMontreal-Regular.otf')
-} */
 @font-face {
     font-family: 'NeueMontreal';
-    src: url('fonts/NeueMontreal/NeueMontreal-Light.otf;')
+    src: url('fonts/NeueMontreal/NeueMontreal-Light.otf;');
 }
+
 @font-face {
     font-family: 'TheSeasons';
-    src: url('fonts/TheSeasons/Fontspring-DEMO-theseasons-reg.otf')
+    src: url('fonts/TheSeasons/Fontspring-DEMO-theseasons-reg.otf');
 }
 
 body {
     font-family: 'NeueMontreal', sans-serif;
     font-weight: lighter;
     background-color: #E0D2C2;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h1 {
     font-family: 'TheSeasons', sans-serif;
     font-weight: 100;
-    font-size: 3.5vw;
 }
 
+/* header h1 {
+    font-size: 64px;
+} */
+
 .container, .container-fluid {
-    padding: 3.2vw;
+    padding: 32px;
 }
 
 .bg-colorful {
@@ -37,9 +37,9 @@ header > .container-fluid {
 }
 
 .btn {
-    font-size: 1.6vw;
-    padding: 0.5vw 1.6vw;
-    border-radius: 3vw;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 32px;
 }
 
 .btn-danger {
@@ -49,8 +49,8 @@ header > .container-fluid {
 }
 
 .btn-danger:hover {
-    background-color: #59090c;
-    border-color: #59090c;
+    background-color: #721011;
+    border-color: #721011;
 }
 
 .btn-light {
@@ -64,12 +64,12 @@ header > .container-fluid {
 }
 
 .border-content {
-    border: 0.2vw solid #333;
-    padding: 2vw;
+    border: 1px solid #333;
+    padding: 32px;
 }
 
 .list {
-    border: 0.2vw solid #fff;
+    border: 1px solid #fff;
     width: 70%;
     margin: 0 auto;
 }
@@ -79,20 +79,24 @@ header > .container-fluid {
 }
 
 .price-after {
-    font-size: 7vw;
+    font-size: 56px;
 }
 
 .price {
-    font-size: 2vw;
+    font-size: 32px;
     line-height: 1.8;
 }
 
 .installments {
-    font-size: 1.8vw;
+    font-size: 24px;
 }
 
 p {
-    font-size: 1.6vw;
+    font-size: 18px;
+}
+
+.two-columns-text p {
+    width: 88%;
 }
 
 .bg-brown {
@@ -102,9 +106,9 @@ p {
 }
 
 img.barbara {
-    -webkit-box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5); /* Corrected shadow color */
-    -moz-box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5); /* Corrected shadow color */
-    box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5); /* Corrected shadow color */
+    -webkit-box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: -8px 0px 5px 0px rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 10;
 }
@@ -145,10 +149,10 @@ header {
 
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 767px) {
-    span {
-        font-size: 1.6vw;
+    .two-columns-text p {
+        width: 100%;
     }
-    /* .col-lg-6 {
-        width: 50%;
-    } */
+    .container, .container-fluid {
+        padding: 24px;
+    }
 }
