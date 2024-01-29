@@ -95,3 +95,14 @@ footer p {
 p {
     font-size: 24px;
 }
+.bg-brown {
+    background-image: url(files/bg-brown.jpeg);
+    background-size: contain;
+}
+img.barbara {
+    -webkit-box-shadow: -5px 0px 5px 0px rgba(51,3,NaN,1);
+    -moz-box-shadow: -5px 0px 5px 0px rgba(51,3,NaN,1);
+    box-shadow: -5px 0px 5px 0px rgba(51,3,NaN,1);
+    position: relative;
+    z-index: 10;
+}
